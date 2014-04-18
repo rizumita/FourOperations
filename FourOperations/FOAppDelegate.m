@@ -7,12 +7,29 @@
 //
 
 #import "FOAppDelegate.h"
+#import "CTiOSCoreDataAssembly.h"
 
 @implementation FOAppDelegate
 
+- (void)loadFactory
+{
+    TyphoonComponentFactory *factory = [[TyphoonBlockComponentFactory alloc] initWithAssemblies:@[
+            [CTiOSCoreDataAssembly assembly],
+    ]];
+
+    id <TyphoonResource> configurationProperties = [TyphoonBundleResource withName:@"Configuration.properties"];
+    [factory attachPostProcessor:[TyphoonPropertyPlaceholderConfigurer configurerWithResource:configurationProperties]];
+    [factory makeDefault];
+
+    self.factory = factory;
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    [self loadFactory];
+
+    [NSManagedObjectContext setMainContext:((CTiOSCoreDataAssembly *)self.factory).mainManagedObjectContext];
+
     return YES;
 }
 							

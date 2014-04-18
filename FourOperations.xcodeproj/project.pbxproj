@@ -23,8 +23,14 @@
 		6A2601B71901439C00C5BABA /* FourOperationsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2601B61901439C00C5BABA /* FourOperationsTests.m */; };
 		6A2601C21901458C00C5BABA /* FOViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2601C11901458C00C5BABA /* FOViewModel.m */; };
 		6A2601C31901458C00C5BABA /* FOViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2601C11901458C00C5BABA /* FOViewModel.m */; };
+		6A2601C61901D33500C5BABA /* FourOperations.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6A2601C41901D33500C5BABA /* FourOperations.xcdatamodeld */; };
+		6A2601C71901D33500C5BABA /* FourOperations.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6A2601C41901D33500C5BABA /* FourOperations.xcdatamodeld */; };
 		9D179A8156364809A1FFEEC0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96197D48620C484CB08F5F27 /* libPods.a */; };
+		CB8761024487144ED9126482 /* Configuration.properties in Resources */ = {isa = PBXBuildFile; fileRef = CB8760D6C7ECAC8755ABC814 /* Configuration.properties */; };
+		CB876474D12E55CF1FB47F76 /* CTiOSCoreDataAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = CB876AA0DF05648AB29BF624 /* CTiOSCoreDataAssembly.m */; };
+		CB876B63DF45351E10AF9680 /* Configuration.properties in Resources */ = {isa = PBXBuildFile; fileRef = CB8760D6C7ECAC8755ABC814 /* Configuration.properties */; };
 		CB876D920A051F931F4127E5 /* FOBasicStyleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB876B53ACA0DE822F82F7ED /* FOBasicStyleViewController.m */; };
+		CB876ED2EE5CCA9E404B1C80 /* CTiOSCoreDataAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = CB876AA0DF05648AB29BF624 /* CTiOSCoreDataAssembly.m */; };
 		CB876F5F7FD6B5F1A4232EA7 /* FOBasicStyleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB876B53ACA0DE822F82F7ED /* FOBasicStyleViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -61,8 +67,13 @@
 		6A2601B61901439C00C5BABA /* FourOperationsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourOperationsTests.m; sourceTree = "<group>"; };
 		6A2601C01901458C00C5BABA /* FOViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FOViewModel.h; sourceTree = "<group>"; };
 		6A2601C11901458C00C5BABA /* FOViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FOViewModel.m; sourceTree = "<group>"; };
+		6A2601C51901D33500C5BABA /* FourOperations.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FourOperations.xcdatamodel; sourceTree = "<group>"; };
 		96197D48620C484CB08F5F27 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB8760D6C7ECAC8755ABC814 /* Configuration.properties */ = {isa = PBXFileReference; lastKnownFileType = file.properties; path = Configuration.properties; sourceTree = "<group>"; };
+		CB876182961BA052167F1690 /* CTiOSCoreDataAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTiOSCoreDataAssembly.h; sourceTree = "<group>"; };
 		CB8763E71683A7AF729ADA2F /* FOBasicStyleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FOBasicStyleViewController.h; sourceTree = "<group>"; };
+		CB8765379BE2FD127D973D58 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		CB876AA0DF05648AB29BF624 /* CTiOSCoreDataAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTiOSCoreDataAssembly.m; sourceTree = "<group>"; };
 		CB876B53ACA0DE822F82F7ED /* FOBasicStyleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FOBasicStyleViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -133,10 +144,12 @@
 				6A2601A11901439C00C5BABA /* FOReactiveStyleViewController.m */,
 				6A2601C01901458C00C5BABA /* FOViewModel.h */,
 				6A2601C11901458C00C5BABA /* FOViewModel.m */,
+				6A2601C41901D33500C5BABA /* FourOperations.xcdatamodeld */,
 				6A2601A31901439C00C5BABA /* Images.xcassets */,
 				6A2601921901439B00C5BABA /* Supporting Files */,
 				CB876B53ACA0DE822F82F7ED /* FOBasicStyleViewController.m */,
 				CB8763E71683A7AF729ADA2F /* FOBasicStyleViewController.h */,
+				CB876EB09C0607102D649E56 /* Assemblies */,
 			);
 			path = FourOperations;
 			sourceTree = "<group>";
@@ -148,6 +161,7 @@
 				6A2601941901439B00C5BABA /* InfoPlist.strings */,
 				6A2601971901439B00C5BABA /* main.m */,
 				6A2601991901439B00C5BABA /* FourOperations-Prefix.pch */,
+				CB8765379BE2FD127D973D58 /* Podfile */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -168,6 +182,16 @@
 				6A2601B31901439C00C5BABA /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB876EB09C0607102D649E56 /* Assemblies */ = {
+			isa = PBXGroup;
+			children = (
+				CB8760D6C7ECAC8755ABC814 /* Configuration.properties */,
+				CB876182961BA052167F1690 /* CTiOSCoreDataAssembly.h */,
+				CB876AA0DF05648AB29BF624 /* CTiOSCoreDataAssembly.m */,
+			);
+			path = Assemblies;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,6 +276,7 @@
 				6A2601A41901439C00C5BABA /* Images.xcassets in Resources */,
 				6A2601961901439B00C5BABA /* InfoPlist.strings in Resources */,
 				6A26019F1901439B00C5BABA /* Main.storyboard in Resources */,
+				CB876B63DF45351E10AF9680 /* Configuration.properties in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A2601B51901439C00C5BABA /* InfoPlist.strings in Resources */,
+				CB8761024487144ED9126482 /* Configuration.properties in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,11 +329,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A2601C61901D33500C5BABA /* FourOperations.xcdatamodeld in Sources */,
 				6A2601981901439B00C5BABA /* main.m in Sources */,
 				6A2601C21901458C00C5BABA /* FOViewModel.m in Sources */,
 				6A26019C1901439B00C5BABA /* FOAppDelegate.m in Sources */,
 				6A2601A21901439C00C5BABA /* FOReactiveStyleViewController.m in Sources */,
 				CB876F5F7FD6B5F1A4232EA7 /* FOBasicStyleViewController.m in Sources */,
+				CB876474D12E55CF1FB47F76 /* CTiOSCoreDataAssembly.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +346,8 @@
 				6A2601B71901439C00C5BABA /* FourOperationsTests.m in Sources */,
 				6A2601C31901458C00C5BABA /* FOViewModel.m in Sources */,
 				CB876D920A051F931F4127E5 /* FOBasicStyleViewController.m in Sources */,
+				6A2601C71901D33500C5BABA /* FourOperations.xcdatamodeld in Sources */,
+				CB876ED2EE5CCA9E404B1C80 /* CTiOSCoreDataAssembly.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -528,6 +558,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6A2601C41901D33500C5BABA /* FourOperations.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6A2601C51901D33500C5BABA /* FourOperations.xcdatamodel */,
+			);
+			currentVersion = 6A2601C51901D33500C5BABA /* FourOperations.xcdatamodel */;
+			path = FourOperations.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 6A2601801901439B00C5BABA /* Project object */;
 }
