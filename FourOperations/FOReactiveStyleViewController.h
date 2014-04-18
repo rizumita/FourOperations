@@ -1,5 +1,5 @@
 //
-//  FOViewController.h
+//  FOReactiveStyleViewController.h
 //  FourOperations
 //
 //  Created by 和泉田 領一 on 2014/04/18.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FOViewController : UIViewController
+@class FOViewModel;
+
+@interface FOReactiveStyleViewController : UIViewController
 
 @end

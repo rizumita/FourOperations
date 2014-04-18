@@ -14,13 +14,18 @@
 		6A2601981901439B00C5BABA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2601971901439B00C5BABA /* main.m */; };
 		6A26019C1901439B00C5BABA /* FOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A26019B1901439B00C5BABA /* FOAppDelegate.m */; };
 		6A26019F1901439B00C5BABA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A26019D1901439B00C5BABA /* Main.storyboard */; };
-		6A2601A21901439C00C5BABA /* FOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2601A11901439C00C5BABA /* FOViewController.m */; };
+		6A2601A21901439C00C5BABA /* FOReactiveStyleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2601A11901439C00C5BABA /* FOReactiveStyleViewController.m */; };
 		6A2601A41901439C00C5BABA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A2601A31901439C00C5BABA /* Images.xcassets */; };
 		6A2601AB1901439C00C5BABA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A2601AA1901439C00C5BABA /* XCTest.framework */; };
 		6A2601AC1901439C00C5BABA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A26018B1901439B00C5BABA /* Foundation.framework */; };
 		6A2601AD1901439C00C5BABA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A26018F1901439B00C5BABA /* UIKit.framework */; };
 		6A2601B51901439C00C5BABA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A2601B31901439C00C5BABA /* InfoPlist.strings */; };
 		6A2601B71901439C00C5BABA /* FourOperationsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2601B61901439C00C5BABA /* FourOperationsTests.m */; };
+		6A2601C21901458C00C5BABA /* FOViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2601C11901458C00C5BABA /* FOViewModel.m */; };
+		6A2601C31901458C00C5BABA /* FOViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2601C11901458C00C5BABA /* FOViewModel.m */; };
+		9D179A8156364809A1FFEEC0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96197D48620C484CB08F5F27 /* libPods.a */; };
+		CB876D920A051F931F4127E5 /* FOBasicStyleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB876B53ACA0DE822F82F7ED /* FOBasicStyleViewController.m */; };
+		CB876F5F7FD6B5F1A4232EA7 /* FOBasicStyleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB876B53ACA0DE822F82F7ED /* FOBasicStyleViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4CF8D6C7052A416DAC453C95 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		6A2601881901439B00C5BABA /* FourOperations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FourOperations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A26018B1901439B00C5BABA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6A26018D1901439B00C5BABA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,14 +51,19 @@
 		6A26019A1901439B00C5BABA /* FOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FOAppDelegate.h; sourceTree = "<group>"; };
 		6A26019B1901439B00C5BABA /* FOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FOAppDelegate.m; sourceTree = "<group>"; };
 		6A26019E1901439B00C5BABA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6A2601A01901439B00C5BABA /* FOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FOViewController.h; sourceTree = "<group>"; };
-		6A2601A11901439C00C5BABA /* FOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FOViewController.m; sourceTree = "<group>"; };
+		6A2601A01901439B00C5BABA /* FOReactiveStyleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FOReactiveStyleViewController.h; sourceTree = "<group>"; };
+		6A2601A11901439C00C5BABA /* FOReactiveStyleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FOReactiveStyleViewController.m; sourceTree = "<group>"; };
 		6A2601A31901439C00C5BABA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6A2601A91901439C00C5BABA /* FourOperationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FourOperationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A2601AA1901439C00C5BABA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6A2601B21901439C00C5BABA /* FourOperationsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FourOperationsTests-Info.plist"; sourceTree = "<group>"; };
 		6A2601B41901439C00C5BABA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6A2601B61901439C00C5BABA /* FourOperationsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourOperationsTests.m; sourceTree = "<group>"; };
+		6A2601C01901458C00C5BABA /* FOViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FOViewModel.h; sourceTree = "<group>"; };
+		6A2601C11901458C00C5BABA /* FOViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FOViewModel.m; sourceTree = "<group>"; };
+		96197D48620C484CB08F5F27 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB8763E71683A7AF729ADA2F /* FOBasicStyleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FOBasicStyleViewController.h; sourceTree = "<group>"; };
+		CB876B53ACA0DE822F82F7ED /* FOBasicStyleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FOBasicStyleViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +74,7 @@
 				6A26018E1901439B00C5BABA /* CoreGraphics.framework in Frameworks */,
 				6A2601901901439B00C5BABA /* UIKit.framework in Frameworks */,
 				6A26018C1901439B00C5BABA /* Foundation.framework in Frameworks */,
+				9D179A8156364809A1FFEEC0 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +98,7 @@
 				6A2601B01901439C00C5BABA /* FourOperationsTests */,
 				6A26018A1901439B00C5BABA /* Frameworks */,
 				6A2601891901439B00C5BABA /* Products */,
+				4CF8D6C7052A416DAC453C95 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +118,7 @@
 				6A26018D1901439B00C5BABA /* CoreGraphics.framework */,
 				6A26018F1901439B00C5BABA /* UIKit.framework */,
 				6A2601AA1901439C00C5BABA /* XCTest.framework */,
+				96197D48620C484CB08F5F27 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,10 +129,14 @@
 				6A26019A1901439B00C5BABA /* FOAppDelegate.h */,
 				6A26019B1901439B00C5BABA /* FOAppDelegate.m */,
 				6A26019D1901439B00C5BABA /* Main.storyboard */,
-				6A2601A01901439B00C5BABA /* FOViewController.h */,
-				6A2601A11901439C00C5BABA /* FOViewController.m */,
+				6A2601A01901439B00C5BABA /* FOReactiveStyleViewController.h */,
+				6A2601A11901439C00C5BABA /* FOReactiveStyleViewController.m */,
+				6A2601C01901458C00C5BABA /* FOViewModel.h */,
+				6A2601C11901458C00C5BABA /* FOViewModel.m */,
 				6A2601A31901439C00C5BABA /* Images.xcassets */,
 				6A2601921901439B00C5BABA /* Supporting Files */,
+				CB876B53ACA0DE822F82F7ED /* FOBasicStyleViewController.m */,
+				CB8763E71683A7AF729ADA2F /* FOBasicStyleViewController.h */,
 			);
 			path = FourOperations;
 			sourceTree = "<group>";
@@ -159,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A2601BA1901439C00C5BABA /* Build configuration list for PBXNativeTarget "FourOperations" */;
 			buildPhases = (
+				A3B5CEEF0690463BA2A062DD /* Check Pods Manifest.lock */,
 				6A2601841901439B00C5BABA /* Sources */,
 				6A2601851901439B00C5BABA /* Frameworks */,
 				6A2601861901439B00C5BABA /* Resources */,
+				8BED8CA875054C8E8E8A60AA /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -245,14 +265,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8BED8CA875054C8E8E8A60AA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3B5CEEF0690463BA2A062DD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6A2601841901439B00C5BABA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6A2601981901439B00C5BABA /* main.m in Sources */,
+				6A2601C21901458C00C5BABA /* FOViewModel.m in Sources */,
 				6A26019C1901439B00C5BABA /* FOAppDelegate.m in Sources */,
-				6A2601A21901439C00C5BABA /* FOViewController.m in Sources */,
+				6A2601A21901439C00C5BABA /* FOReactiveStyleViewController.m in Sources */,
+				CB876F5F7FD6B5F1A4232EA7 /* FOBasicStyleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +316,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A2601B71901439C00C5BABA /* FourOperationsTests.m in Sources */,
+				6A2601C31901458C00C5BABA /* FOViewModel.m in Sources */,
+				CB876D920A051F931F4127E5 /* FOBasicStyleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +431,7 @@
 		};
 		6A2601BB1901439C00C5BABA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CF8D6C7052A416DAC453C95 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -387,6 +445,7 @@
 		};
 		6A2601BC1901439C00C5BABA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CF8D6C7052A416DAC453C95 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -457,6 +516,7 @@
 				6A2601BC1901439C00C5BABA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A2601BD1901439C00C5BABA /* Build configuration list for PBXNativeTarget "FourOperationsTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +525,7 @@
 				6A2601BF1901439C00C5BABA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
