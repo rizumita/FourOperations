@@ -10,6 +10,6 @@
 
 @class FOViewModel;
 
-@interface FOReactiveStyleViewController : UIViewController
+@interface FOReactiveStyleViewController : UIViewController <UITableViewDelegate>
 
 @end

@@ -22,6 +22,8 @@
 
 - (id)persistentStoreCoordinator;
 
+- (id)storeURL;
+
 - (id)managedObjectModel;
 
 @end

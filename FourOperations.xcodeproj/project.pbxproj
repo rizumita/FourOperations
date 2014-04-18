@@ -27,11 +27,17 @@
 		6A2601C71901D33500C5BABA /* FourOperations.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6A2601C41901D33500C5BABA /* FourOperations.xcdatamodeld */; };
 		9D179A8156364809A1FFEEC0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96197D48620C484CB08F5F27 /* libPods.a */; };
 		CB8761024487144ED9126482 /* Configuration.properties in Resources */ = {isa = PBXBuildFile; fileRef = CB8760D6C7ECAC8755ABC814 /* Configuration.properties */; };
+		CB87625C95B1F0E13A2591A9 /* FOExpressionsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CB876568C06DF344D0F5A01B /* FOExpressionsManager.m */; };
+		CB876470B2E4D0A5515756FA /* _Expression.m in Sources */ = {isa = PBXBuildFile; fileRef = CB876BCC389B17E1FC793FD8 /* _Expression.m */; };
 		CB876474D12E55CF1FB47F76 /* CTiOSCoreDataAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = CB876AA0DF05648AB29BF624 /* CTiOSCoreDataAssembly.m */; };
+		CB8766C578F3D0350C905753 /* Expression.m in Sources */ = {isa = PBXBuildFile; fileRef = CB876009E913CE6CAC54BEFA /* Expression.m */; };
+		CB876A1318843F3E6B64948E /* _Expression.m in Sources */ = {isa = PBXBuildFile; fileRef = CB876BCC389B17E1FC793FD8 /* _Expression.m */; };
 		CB876B63DF45351E10AF9680 /* Configuration.properties in Resources */ = {isa = PBXBuildFile; fileRef = CB8760D6C7ECAC8755ABC814 /* Configuration.properties */; };
 		CB876D920A051F931F4127E5 /* FOBasicStyleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB876B53ACA0DE822F82F7ED /* FOBasicStyleViewController.m */; };
 		CB876ED2EE5CCA9E404B1C80 /* CTiOSCoreDataAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = CB876AA0DF05648AB29BF624 /* CTiOSCoreDataAssembly.m */; };
 		CB876F5F7FD6B5F1A4232EA7 /* FOBasicStyleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB876B53ACA0DE822F82F7ED /* FOBasicStyleViewController.m */; };
+		CB876F986ACB638ACEAFED24 /* FOExpressionsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CB876568C06DF344D0F5A01B /* FOExpressionsManager.m */; };
+		CB876FED5BDFFD15EAA715FE /* Expression.m in Sources */ = {isa = PBXBuildFile; fileRef = CB876009E913CE6CAC54BEFA /* Expression.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,12 +75,18 @@
 		6A2601C11901458C00C5BABA /* FOViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FOViewModel.m; sourceTree = "<group>"; };
 		6A2601C51901D33500C5BABA /* FourOperations.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FourOperations.xcdatamodel; sourceTree = "<group>"; };
 		96197D48620C484CB08F5F27 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB876009E913CE6CAC54BEFA /* Expression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Expression.m; path = Models/Expression.m; sourceTree = "<group>"; };
 		CB8760D6C7ECAC8755ABC814 /* Configuration.properties */ = {isa = PBXFileReference; lastKnownFileType = file.properties; path = Configuration.properties; sourceTree = "<group>"; };
 		CB876182961BA052167F1690 /* CTiOSCoreDataAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTiOSCoreDataAssembly.h; sourceTree = "<group>"; };
 		CB8763E71683A7AF729ADA2F /* FOBasicStyleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FOBasicStyleViewController.h; sourceTree = "<group>"; };
 		CB8765379BE2FD127D973D58 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		CB876568C06DF344D0F5A01B /* FOExpressionsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FOExpressionsManager.m; sourceTree = "<group>"; };
+		CB8767B635DD06997AB0BAFB /* FOExpressionsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FOExpressionsManager.h; sourceTree = "<group>"; };
 		CB876AA0DF05648AB29BF624 /* CTiOSCoreDataAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTiOSCoreDataAssembly.m; sourceTree = "<group>"; };
 		CB876B53ACA0DE822F82F7ED /* FOBasicStyleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FOBasicStyleViewController.m; sourceTree = "<group>"; };
+		CB876BCC389B17E1FC793FD8 /* _Expression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _Expression.m; path = Models/_Expression.m; sourceTree = "<group>"; };
+		CB876D6CDA3577948193A838 /* Expression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Expression.h; path = Models/Expression.h; sourceTree = "<group>"; };
+		CB876E7FAD0AA2435E48F8D9 /* _Expression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _Expression.h; path = Models/_Expression.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +162,9 @@
 				CB876B53ACA0DE822F82F7ED /* FOBasicStyleViewController.m */,
 				CB8763E71683A7AF729ADA2F /* FOBasicStyleViewController.h */,
 				CB876EB09C0607102D649E56 /* Assemblies */,
+				CB8767047D92594986F9EACD /* Models */,
+				CB876568C06DF344D0F5A01B /* FOExpressionsManager.m */,
+				CB8767B635DD06997AB0BAFB /* FOExpressionsManager.h */,
 			);
 			path = FourOperations;
 			sourceTree = "<group>";
@@ -184,6 +199,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		CB8767047D92594986F9EACD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CB876BCC389B17E1FC793FD8 /* _Expression.m */,
+				CB876D6CDA3577948193A838 /* Expression.h */,
+				CB876E7FAD0AA2435E48F8D9 /* _Expression.h */,
+				CB876009E913CE6CAC54BEFA /* Expression.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		CB876EB09C0607102D649E56 /* Assemblies */ = {
 			isa = PBXGroup;
 			children = (
@@ -202,6 +228,7 @@
 			buildConfigurationList = 6A2601BA1901439C00C5BABA /* Build configuration list for PBXNativeTarget "FourOperations" */;
 			buildPhases = (
 				A3B5CEEF0690463BA2A062DD /* Check Pods Manifest.lock */,
+				6A2601C81901D4C000C5BABA /* ShellScript */,
 				6A2601841901439B00C5BABA /* Sources */,
 				6A2601851901439B00C5BABA /* Frameworks */,
 				6A2601861901439B00C5BABA /* Resources */,
@@ -292,6 +319,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		6A2601C81901D4C000C5BABA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/mogenerator -m FourOperations/FourOperations.xcdatamodeld/FourOperations.xcdatamodel -O FourOperations/Models --template-var arc=true\n";
+		};
 		8BED8CA875054C8E8E8A60AA /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -336,6 +376,9 @@
 				6A2601A21901439C00C5BABA /* FOReactiveStyleViewController.m in Sources */,
 				CB876F5F7FD6B5F1A4232EA7 /* FOBasicStyleViewController.m in Sources */,
 				CB876474D12E55CF1FB47F76 /* CTiOSCoreDataAssembly.m in Sources */,
+				CB876A1318843F3E6B64948E /* _Expression.m in Sources */,
+				CB8766C578F3D0350C905753 /* Expression.m in Sources */,
+				CB87625C95B1F0E13A2591A9 /* FOExpressionsManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +391,9 @@
 				CB876D920A051F931F4127E5 /* FOBasicStyleViewController.m in Sources */,
 				6A2601C71901D33500C5BABA /* FourOperations.xcdatamodeld in Sources */,
 				CB876ED2EE5CCA9E404B1C80 /* CTiOSCoreDataAssembly.m in Sources */,
+				CB876470B2E4D0A5515756FA /* _Expression.m in Sources */,
+				CB876FED5BDFFD15EAA715FE /* Expression.m in Sources */,
+				CB876F986ACB638ACEAFED24 /* FOExpressionsManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

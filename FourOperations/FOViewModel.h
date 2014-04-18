@@ -10,7 +10,9 @@
 #import "ReactiveCocoa.h"
 #import "RACEXTScope.h"
 
-@interface FOViewModel : NSObject
+@class FOExpressionsManager;
+
+@interface FOViewModel : NSObject <UITableViewDataSource>
 
 @property (nonatomic, copy) NSString *leftSideValue;
 @property (nonatomic, copy) NSString *rightSideValue;
@@ -19,4 +21,8 @@
 
 @property (nonatomic, copy) NSString *resultString;
 
+@property (nonatomic, strong) FOExpressionsManager *expressionsManager;
+@property (nonatomic, strong, readonly) id shouldReloadDataSignal;
+
+- (id)initWithExpressionsManager:(FOExpressionsManager *)expressionsManager;
 @end
