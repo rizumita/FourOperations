@@ -25,6 +25,8 @@
 		6A2601C31901458C00C5BABA /* FOViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2601C11901458C00C5BABA /* FOViewModel.m */; };
 		6A2601C61901D33500C5BABA /* FourOperations.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6A2601C41901D33500C5BABA /* FourOperations.xcdatamodeld */; };
 		6A2601C71901D33500C5BABA /* FourOperations.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6A2601C41901D33500C5BABA /* FourOperations.xcdatamodeld */; };
+		6A98BB03190235EC0021C8AF /* FOTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A98BB02190235EC0021C8AF /* FOTableViewModel.m */; };
+		6A98BB04190235EC0021C8AF /* FOTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A98BB02190235EC0021C8AF /* FOTableViewModel.m */; };
 		9D179A8156364809A1FFEEC0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96197D48620C484CB08F5F27 /* libPods.a */; };
 		CB8761024487144ED9126482 /* Configuration.properties in Resources */ = {isa = PBXBuildFile; fileRef = CB8760D6C7ECAC8755ABC814 /* Configuration.properties */; };
 		CB87625C95B1F0E13A2591A9 /* FOExpressionsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CB876568C06DF344D0F5A01B /* FOExpressionsManager.m */; };
@@ -74,6 +76,8 @@
 		6A2601C01901458C00C5BABA /* FOViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FOViewModel.h; sourceTree = "<group>"; };
 		6A2601C11901458C00C5BABA /* FOViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FOViewModel.m; sourceTree = "<group>"; };
 		6A2601C51901D33500C5BABA /* FourOperations.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FourOperations.xcdatamodel; sourceTree = "<group>"; };
+		6A98BB01190235EC0021C8AF /* FOTableViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FOTableViewModel.h; sourceTree = "<group>"; };
+		6A98BB02190235EC0021C8AF /* FOTableViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FOTableViewModel.m; sourceTree = "<group>"; };
 		96197D48620C484CB08F5F27 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB876009E913CE6CAC54BEFA /* Expression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Expression.m; path = Models/Expression.m; sourceTree = "<group>"; };
 		CB8760D6C7ECAC8755ABC814 /* Configuration.properties */ = {isa = PBXFileReference; lastKnownFileType = file.properties; path = Configuration.properties; sourceTree = "<group>"; };
@@ -209,6 +213,8 @@
 			children = (
 				6A2601C01901458C00C5BABA /* FOViewModel.h */,
 				6A2601C11901458C00C5BABA /* FOViewModel.m */,
+				6A98BB01190235EC0021C8AF /* FOTableViewModel.h */,
+				6A98BB02190235EC0021C8AF /* FOTableViewModel.m */,
 			);
 			name = ViewModels;
 			sourceTree = "<group>";
@@ -392,6 +398,7 @@
 				6A2601A21901439C00C5BABA /* FOReactiveStyleViewController.m in Sources */,
 				CB876F5F7FD6B5F1A4232EA7 /* FOBasicStyleViewController.m in Sources */,
 				CB876474D12E55CF1FB47F76 /* CTiOSCoreDataAssembly.m in Sources */,
+				6A98BB03190235EC0021C8AF /* FOTableViewModel.m in Sources */,
 				CB876A1318843F3E6B64948E /* _Expression.m in Sources */,
 				CB8766C578F3D0350C905753 /* Expression.m in Sources */,
 				CB87625C95B1F0E13A2591A9 /* FOExpressionsManager.m in Sources */,
@@ -403,6 +410,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A2601B71901439C00C5BABA /* FourOperationsTests.m in Sources */,
+				6A98BB04190235EC0021C8AF /* FOTableViewModel.m in Sources */,
 				6A2601C31901458C00C5BABA /* FOViewModel.m in Sources */,
 				CB876D920A051F931F4127E5 /* FOBasicStyleViewController.m in Sources */,
 				6A2601C71901D33500C5BABA /* FourOperations.xcdatamodeld in Sources */,
