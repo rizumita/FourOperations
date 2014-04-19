@@ -16,6 +16,9 @@
 {
     self = [super init];
     if (self) {
+        [[[Expression findAll] fetch] subscribeNext:^(id x) {
+            self.expressions = x;
+        }];
         RAC(self, expressions) = [[Expression findAll] fetchWithTrigger:[NSManagedObjectContext currentContext].rcd_merged];
     }
     return self;

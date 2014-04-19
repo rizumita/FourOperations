@@ -152,19 +152,13 @@
 				6A26019A1901439B00C5BABA /* FOAppDelegate.h */,
 				6A26019B1901439B00C5BABA /* FOAppDelegate.m */,
 				6A26019D1901439B00C5BABA /* Main.storyboard */,
-				6A2601A01901439B00C5BABA /* FOReactiveStyleViewController.h */,
-				6A2601A11901439C00C5BABA /* FOReactiveStyleViewController.m */,
-				6A2601C01901458C00C5BABA /* FOViewModel.h */,
-				6A2601C11901458C00C5BABA /* FOViewModel.m */,
+				CB876EB09C0607102D649E56 /* Assemblies */,
+				6AE6B3D3190204C500B2C821 /* Controllers */,
+				CB8767047D92594986F9EACD /* Models */,
+				6AE6B3D4190204DD00B2C821 /* ViewModels */,
 				6A2601C41901D33500C5BABA /* FourOperations.xcdatamodeld */,
 				6A2601A31901439C00C5BABA /* Images.xcassets */,
 				6A2601921901439B00C5BABA /* Supporting Files */,
-				CB876B53ACA0DE822F82F7ED /* FOBasicStyleViewController.m */,
-				CB8763E71683A7AF729ADA2F /* FOBasicStyleViewController.h */,
-				CB876EB09C0607102D649E56 /* Assemblies */,
-				CB8767047D92594986F9EACD /* Models */,
-				CB876568C06DF344D0F5A01B /* FOExpressionsManager.m */,
-				CB8767B635DD06997AB0BAFB /* FOExpressionsManager.h */,
 			);
 			path = FourOperations;
 			sourceTree = "<group>";
@@ -199,6 +193,26 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		6AE6B3D3190204C500B2C821 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6A2601A01901439B00C5BABA /* FOReactiveStyleViewController.h */,
+				6A2601A11901439C00C5BABA /* FOReactiveStyleViewController.m */,
+				CB876B53ACA0DE822F82F7ED /* FOBasicStyleViewController.m */,
+				CB8763E71683A7AF729ADA2F /* FOBasicStyleViewController.h */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		6AE6B3D4190204DD00B2C821 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				6A2601C01901458C00C5BABA /* FOViewModel.h */,
+				6A2601C11901458C00C5BABA /* FOViewModel.m */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
 		CB8767047D92594986F9EACD /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -206,6 +220,8 @@
 				CB876D6CDA3577948193A838 /* Expression.h */,
 				CB876E7FAD0AA2435E48F8D9 /* _Expression.h */,
 				CB876009E913CE6CAC54BEFA /* Expression.m */,
+				CB8767B635DD06997AB0BAFB /* FOExpressionsManager.h */,
+				CB876568C06DF344D0F5A01B /* FOExpressionsManager.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
