@@ -94,14 +94,16 @@
         [initializer injectWithDefinition:self.managedObjectModel];
         [initializer injectWithDefinition:self.storeType];
         [initializer injectWithDefinition:self.storeURL];
-        [initializer injectWithObjectInstance:nil];
+        [initializer injectWithObjectInstance:[NSDictionary dictionaryWithObjectsAndKeys:
+                                                                    [NSNumber numberWithBool:YES], NSMigratePersistentStoresAutomaticallyOption,
+                                                                    [NSNumber numberWithBool:YES], NSInferMappingModelAutomaticallyOption, nil]];
     }];
 }
 
 - (id)storeType
 {
     return [TyphoonDefinition withClass:[NSString class] initialization:^(TyphoonInitializer *initializer) {
-        initializer.selector= @selector(initWithString:);
+        initializer.selector = @selector(initWithString:);
         [initializer injectWithObjectInstance:NSSQLiteStoreType];
     }];
 }
