@@ -250,7 +250,6 @@
 			buildConfigurationList = 6A2601BA1901439C00C5BABA /* Build configuration list for PBXNativeTarget "FourOperations" */;
 			buildPhases = (
 				A3B5CEEF0690463BA2A062DD /* Check Pods Manifest.lock */,
-				6A2601C81901D4C000C5BABA /* ShellScript */,
 				6A2601841901439B00C5BABA /* Sources */,
 				6A2601851901439B00C5BABA /* Frameworks */,
 				6A2601861901439B00C5BABA /* Resources */,
@@ -341,19 +340,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6A2601C81901D4C000C5BABA /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/mogenerator -m FourOperations/FourOperations.xcdatamodeld/FourOperations.xcdatamodel -O FourOperations/Models --template-var arc=true\n";
-		};
 		8BED8CA875054C8E8E8A60AA /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

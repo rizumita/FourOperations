@@ -12,7 +12,7 @@
 
 @interface FOTableViewModel : NSObject <UITableViewDataSource>
 
-@property (nonatomic, strong, readonly) id shouldReloadDataSignal;
+@property (nonatomic, strong, readonly) RACSignal *shouldReloadDataSignal;
 
 - (id)initWithExpressionsManager:(FOExpressionsManager *)expressionsManager;
 
