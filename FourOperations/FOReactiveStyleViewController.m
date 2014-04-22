@@ -9,6 +9,7 @@
 #import "FOReactiveStyleViewController.h"
 #import "FOViewModel.h"
 #import "FOExpressionsManager.h"
+#import "FOTableViewModel.h"
 
 @interface FOReactiveStyleViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *leftSideTextField;
@@ -17,7 +18,9 @@
 @property (weak, nonatomic) IBOutlet UIButton *calculateButton;
 @property (weak, nonatomic) IBOutlet UILabel *resultLabel;
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
+
 @property (nonatomic, strong) FOViewModel *viewModel;
+@property (nonatomic, strong) FOTableViewModel *tableViewModel;
 @end
 
 @implementation FOReactiveStyleViewController
@@ -26,10 +29,11 @@
 {
     [super viewDidLoad];
 
-    self.viewModel = [[FOViewModel alloc] initWithExpressionsManager:[[FOExpressionsManager alloc]init]];
+    FOExpressionsManager *expressionsManager = [[FOExpressionsManager alloc] init];
+    self.viewModel = [[FOViewModel alloc] init];
+    self.tableViewModel = [[FOTableViewModel alloc] initWithExpressionsManager:expressionsManager];
 
-    self.tableView.dataSource = self.viewModel;
-    self.tableView.delegate = self;
+    self.tableView.dataSource = self.tableViewModel;
 
     RAC(self.viewModel, leftSideValue) = self.leftSideTextField.rac_textSignal;
     RAC(self.viewModel, rightSideValue) = self.rightSideTextField.rac_textSignal;
@@ -38,7 +42,7 @@
     self.calculateButton.rac_command = self.viewModel.calculateCommand;
     RAC(self.resultLabel, text) = RACObserve(self.viewModel, resultString);
 
-    [[self.viewModel.shouldReloadDataSignal deliverOn:[RACScheduler mainThreadScheduler]] subscribeNext:^(id x) {
+    [self.tableViewModel.shouldReloadDataSignal subscribeNext:^(id x) {
         [self.tableView reloadData];
     }];
 }

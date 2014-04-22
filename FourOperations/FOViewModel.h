@@ -21,8 +21,4 @@
 
 @property (nonatomic, copy) NSString *resultString;
 
-@property (nonatomic, strong) FOExpressionsManager *expressionsManager;
-@property (nonatomic, strong, readonly) id shouldReloadDataSignal;
-
-- (id)initWithExpressionsManager:(FOExpressionsManager *)expressionsManager;
 @end
