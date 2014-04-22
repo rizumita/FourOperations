@@ -10,12 +10,12 @@
 #import "FOViewModel.h"
 
 @interface FOReactiveStyleViewController ()
-@property (weak, nonatomic) IBOutlet UITextField *leftSideTextField;
-@property (weak, nonatomic) IBOutlet UISegmentedControl *operators;
-@property (weak, nonatomic) IBOutlet UITextField *rightSideTextField;
-@property (weak, nonatomic) IBOutlet UIButton *calculateButton;
-@property (weak, nonatomic) IBOutlet UILabel *resultLabel;
-@property (nonatomic, strong) FOViewModel *viewModel;
+@property (weak, nonatomic) IBOutlet UITextField *leftSideTextField;    // 左項値
+@property (weak, nonatomic) IBOutlet UISegmentedControl *operators;     // 演算子
+@property (weak, nonatomic) IBOutlet UITextField *rightSideTextField;   // 右項値
+@property (weak, nonatomic) IBOutlet UIButton *calculateButton;         // 計算ボタン
+@property (weak, nonatomic) IBOutlet UILabel *resultLabel;              // 結果ラベル
+@property (nonatomic, strong) FOViewModel *viewModel;                   // ViewModel
 @end
 
 @implementation FOReactiveStyleViewController
